@@ -17,5 +17,5 @@ We collect these information with **Nsight Compute**.
 |gpu__time_active.avg|total duration in nanoseconds| $ duration $ |
 
 $$
-overall\_sm\_efficiency = \Sigma_i^n efficiency_i \times \frac{duration_i}{\Sigma_j^n duration_j}
+overallSmEfficiency = \Sigma_i^n efficiency_i \times \frac{duration_i}{\Sigma_j^n duration_j}
 $$
