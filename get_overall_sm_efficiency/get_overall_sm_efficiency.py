@@ -28,7 +28,7 @@ def process_csv():
 
         for row in csv_reader:
             if row[9] == 'gpu__time_active.avg':
-                exec_time.append(int(row[11]))
+                exec_time.append(int(row[11].replace(',', '')))
             if row[9] == 'smsp__cycles_active.avg.pct_of_peak_sustained_elapsed':
                 sm_effi.append(float(row[11]))
 
